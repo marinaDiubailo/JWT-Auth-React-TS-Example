@@ -7,7 +7,7 @@ interface IStore {
 
 const store = new Store();
 
-const Context = createContext<IStore>({
+export const Context = createContext<IStore>({
     store,
 });
 
